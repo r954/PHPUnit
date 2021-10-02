@@ -11,7 +11,7 @@ class movie {
 
       function check()
       {
-        return $this->moviename;
+        return ucfirst($this->moviename);
       }
 
 
