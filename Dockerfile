@@ -22,6 +22,4 @@ RUN apt-get -y update && apt-get install -y \
 COPY . /var/www/html
 WORKDIR /var/www/html
 
-CMD ["php-fpm"]
-
 EXPOSE 80
